@@ -1,5 +1,5 @@
 /*
- * CARDBIRD Web Controller — ESP32, 5 servos
+ * CARDBIRD Web Controller — ESP32, 4 servos (NUM_SERVOS)
  * Control the cardboard robotic arm from any browser on the same WiFi.
  * One slider per servo, live (no page reload).
  *
@@ -11,7 +11,7 @@
  *
  * USAGE:
  *   1. Set WIFI_SSID / WIFI_PASS below.
- *   2. Wire each servo signal wire to the pins in servoPin[] (defaults: 13,14,25,26,27).
+ *   2. Wire each servo signal wire to the pins in servoPin[] (currently 18,14,19,26).
  *   3. Upload, open Serial Monitor @ 115200 baud, read the IP it prints.
  *   4. Open that IP in a browser (http://192.168.x.x) — phone or laptop on the same WiFi.
  *
